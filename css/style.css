@@ -1,0 +1,124 @@
+/* start rules */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+/* end rules */
+
+.navbar{
+    box-shadow: #0000003b 0px 0px 12px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+}
+
+.pt-cust-6{
+    padding-top: 100px;
+}
+
+.text-green{
+    color: #17b978;
+}
+
+.text-grey{
+    color: #6a7695;
+
+}
+
+.text-dark-grey{
+    color: #263b5e;
+}
+
+.bg-grey{
+    background-color: #f5f4fb;
+
+}
+
+img{
+    width: 100%;
+}
+
+.fs-cust-3{
+    font-size: 60px;
+}
+
+.fw-cust-boldest{
+    font-weight: 900;
+}
+
+.fstyle{
+    font-family: sans-serif;
+}
+
+.costume-btn{
+    margin-top: 20px;
+    background-color: #17b978;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+}
+
+.costume-btn:hover{
+    cursor: pointer;
+}
+
+.costume-btn p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+
+.what-in-list{
+    top: 200px;
+    position: sticky;
+    height: 400px;
+}
+
+
+.services-extra{
+    position: relative;
+}
+
+.services-extra::before{
+    content: "";
+    position: absolute;
+    background-color: #17b978;
+    height: 1px;
+    width: 60px;
+    bottom: -7px;
+    right: 30%;
+}
+
+
+/* responsive */
+
+@media (max-width:992px){
+    .what-in-list{
+        top: 0;
+    }
+}
